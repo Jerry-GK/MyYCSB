@@ -28,21 +28,21 @@
 
 recordcount=1000000
 fieldcount=1
-fieldlength=2000
+fieldlength=4096
 
-operationcount=1000
+operationcount=50
 workload=site.ycsb.workloads.CoreWorkload
 
 readallfields=true
 
 readproportion=0
 updateproportion=0
-scanproportion=0.95
-insertproportion=0.05
+scanproportion=1.0
+insertproportion=0.00
 
 requestdistribution=zipfian
 
-maxscanlength=100000
+maxscanlength=1000000
 
 scanlengthdistribution=uniform
 

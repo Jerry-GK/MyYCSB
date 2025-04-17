@@ -1,0 +1,36 @@
+1kw valuesize=4096B 40G 8mb block cache
+
+blob:
+
+[OVERALL], RunTime(ms), 769115
+[OVERALL], Throughput(ops/sec), 13001.956794497572
+
+maxscanlength=100
+[OVERALL], Throughput(ops/sec), 3661
+
+maxscanlength=1000
+[OVERALL], Throughput(ops/sec), 387
+maxscanlength=10000
+[OVERALL], Throughput(ops/sec), 40
+
+readall(point):
+[OVERALL], Throughput(ops/sec), 82857.59265550299
+
+
+----------------------------------------------------------
+
+rocksdb
+[OVERALL], RunTime(ms), 2545073
+[OVERALL], Throughput(ops/sec), 3929.160381647206
+
+maxscanlength=100
+[OVERALL], Throughput(ops/sec), 3879
+
+axscanlength=1000
+[OVERALL], Throughput(ops/sec), 328
+
+axscanlength=10000
+[OVERALL], Throughput(ops/sec), 40
+
+readall(point):
+[OVERALL], Throughput(ops/sec), 32167.06285765753

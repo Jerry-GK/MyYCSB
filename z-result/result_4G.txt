@@ -1,0 +1,47 @@
+100w valuesize=4096B 4G 8mb block cache
+
+blob:
+
+[OVERALL], Throughput(ops/sec), 18515
+
+maxscanlength=100
+[OVERALL], Throughput(ops/sec), 4874
+
+maxscanlength=1000
+[OVERALL], Throughput(ops/sec), 501
+
+maxscanlength=10000
+[OVERALL], Throughput(ops/sec), 47
+
+maxscanlength=100000
+[OVERALL], Throughput(ops/sec), 4.8
+
+maxscanlength=1000000(full)
+[OVERALL], Throughput(ops/sec), 0.43
+
+readall(point):
+[OVERALL], Throughput(ops/sec), 128057
+
+
+----------------------------------------------------------
+
+rocksdb
+[OVERALL], Throughput(ops/sec), 11433
+
+maxscanlength=100
+[OVERALL], Throughput(ops/sec), 4435
+
+maxscanlength=1000
+[OVERALL], Throughput(ops/sec), 412
+
+maxscanlength=10000
+[OVERALL], Throughput(ops/sec), 40
+
+maxscanlength=100000
+[OVERALL], Throughput(ops/sec), 4.1
+
+maxscanlength=1000000(full)
+[OVERALL], Throughput(ops/sec), 0.48
+
+readall(point):
+[OVERALL], Throughput(ops/sec), 160122
